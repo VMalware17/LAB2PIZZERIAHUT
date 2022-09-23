@@ -29,9 +29,9 @@
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="./index.html" class="nav-link px-2 text-secondary">Inicio</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Sigue tu pedido</a></li>
                     <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="#" class="nav-link px-2 text-white">Acerca de</a></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -90,7 +90,7 @@
                                     <div class="btn-group">
                                         <input type="text" id="italiana">
                                     </div>
-                                    <button type="button" class="btn btn-warning">
+                                    <button type="button" class="btn btn-warning" onclick="cantidadPizzas()">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
                                             <path
@@ -111,7 +111,7 @@
                                     <div class="btn-group ">
                                         <input type="text " id="pollo ">
                                     </div>
-                                    <button type="button " class="btn btn-warning ">
+                                    <button type="button" class="btn btn-warning" onclick="cantidadPizzas()">
                                         <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 "
                                             fill="currentColor " class="bi bi-cart4 " viewBox="0 0 16 16 ">
                                             <path
@@ -133,7 +133,7 @@
                                     <div class="btn-group ">
                                         <input type="text " id="peperoni ">
                                     </div>
-                                    <button type="button " class="btn btn-warning ">
+                                    <button type="button" class="btn btn-warning" onclick="cantidadPizzas()">
                                         <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 "
                                             fill="currentColor " class="bi bi-cart4 " viewBox="0 0 16 16 ">
                                             <path
@@ -155,7 +155,7 @@
                                     <div class="btn-group ">
                                         <input type="text " id="italiana ">
                                     </div>
-                                    <button type="button " class="btn btn-warning ">
+                                    <button type="button" class="btn btn-warning" onclick="cantidadPizzas()">
                                         <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 "
                                             fill="currentColor " class="bi bi-cart4 " viewBox="0 0 16 16 ">
                                             <path
@@ -173,7 +173,11 @@
                 </div>
             </div>
         </div>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <p><a class="btn btn-lg btn-danger" href="#">Imprimir en el menu</a></p>
+            <p><a class="btn btn-lg btn-danger" href="./index.html">Volver</a></p>
 
+        </div>
     </main>
 
     <footer class="text-muted py-5 " style="background-color:tomato ; ">
@@ -185,5 +189,6 @@
             <p class="mb-0 ">New to Bootstrap? <a href="/ ">Visit the homepage</a> or read our <a href="/docs/5.2/getting-started/introduction/ ">getting started guide</a>.</p>
         </div>
     </footer>
+    <script src="main.js "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js " integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8 " crossorigin="anonymous "></script>
 </body>
